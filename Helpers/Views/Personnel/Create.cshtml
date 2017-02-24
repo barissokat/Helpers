@@ -1,0 +1,68 @@
+﻿@model Helpers.Models.Personnel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm())
+{
+    <br />
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(x => x.Name, new { @css = "control-label col-md-2" })
+            <div class="col-md-10">
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Lastname, new { @css = "control-label col-md-2" })
+            <div class="col-md-10">
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Birthdate, new { @css = "control-label col-md-2" })
+            <div class="col-md-10">
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.TC, new { @css = "control-label col-md-2" })
+            <div class="col-md-10">
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Gender, new { @css = "control-label col-md-2" })
+            <div class="col-md-10">
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Status, new { @css = "control-label col-md-2" })
+            <div class="col-md-10">
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.HaveKid, new { @css = "control-label col-md-2" })
+            <div class="col-md-10">
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Password, new { @css = "control-label col-md-2" })
+            <div class="col-md-10">
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Info, new { @css = "control-label col-md-2" })
+            <div class="col-md-10">
+
+            </div>
+        </div>
+    </div>
+}
