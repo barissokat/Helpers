@@ -18,7 +18,8 @@ namespace Helpers.Controllers
         [HttpPost]
         public ActionResult Create(Personnel newPersonnel)
         {
-            return View();
+            bool validation = ModelState.IsValid;
+            return View(newPersonnel);
         }
     }
 }
